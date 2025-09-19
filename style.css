@@ -1,0 +1,27 @@
+body {font-family: 'Georgia', serif; background: #fdfdf8; color: #333; line-height: 1.6; margin:0;}
+header {background: #145c3c; padding: 10px 20px;}
+.logo {height: 50px; margin-right: 20px; vertical-align: middle;}
+nav {display: flex; align-items: center;}
+nav ul {list-style: none; margin: 0; padding: 0; display: flex; margin-left: auto;}
+nav ul li {position: relative;}
+nav ul li a {color: #fff; padding: 10px 15px; display: block; text-decoration: none;}
+nav ul li:hover > ul {display: block;}
+nav ul ul {display: none; position: absolute; top: 100%; left: 0; background: #0b3d2e; min-width: 180px;}
+main {max-width: 1000px; margin: auto; padding: 40px;}
+h1, h2, h3 {font-weight: normal; text-align: center; border-bottom: 2px solid #145c3c; padding-bottom: 5px; margin-top: 40px;}
+footer {text-align: center; padding: 20px; font-size: 0.9em; background: #eee; margin-top: 40px;}
+.callout {background: #145c3c; color: #fff; padding: 20px; border-radius: 6px; margin: 30px 0; text-align: center;}
+.cards {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;}
+.card {border: 1px solid #ccc; padding: 20px; background: #fff; border-radius: 6px; text-align: center;}
+.card img.cover {max-width: 100%; height: auto;}
+.button {display: inline-block; margin-top: 10px; padding: 10px 20px; background: #145c3c; color: #fff; border-radius: 5px; text-decoration: none;}
+details.exec-list {margin: 15px 0; border: 1px solid #ccc; border-radius: 6px; background: #fff; padding: 10px 15px;}
+details.exec-list summary {font-size: 1.1em; cursor: pointer; color: #145c3c;}
+.committee .officer-list {display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; text-align: center; margin: 20px 0 40px;}
+.committee .officer h4 {margin-bottom: 5px; color: #0b3d2e;}
+.committee ul {list-style: none; padding: 0; text-align: center;}
+.committee li {margin: 8px 0;}
+form {display: grid; gap: 15px; max-width: 500px; margin: auto;}
+form input, form textarea {padding: 10px; border: 1px solid #ccc; border-radius: 4px;}
+form button {background: #145c3c; color: #fff; border: none; padding: 12px; cursor: pointer; border-radius: 4px;}
+form button:hover {background: #0b3d2e;}
