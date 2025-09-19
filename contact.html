@@ -2,32 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact - Jamaican Historical Society</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Contact – Jamaican Historical Society</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Society Logo" class="logo">
-    <h1>Jamaican Historical Society</h1>
-  </header>
-
+<header>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="membership.html">Membership</a>
-    <a href="publications.html">Publications</a>
-    <a href="contact.html">Contact</a>
+    <a href="index.html"><img src="images/logo.png" alt="JHS Logo" class="logo"></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About ▾</a>
+        <ul>
+          <li><a href="about.html">About the Society</a></li>
+          <li><a href="committee.html">Current Committee</a></li>
+        </ul>
+      </li>
+      <li><a href="membership.html">Membership</a></li>
+      <li><a href="publications.html">Publications ▾</a>
+        <ul>
+          <li><a href="review.html">Jamaica Historical Review</a></li>
+          <li><a href="bulletin.html">Bulletin</a></li>
+          <li><a href="other.html">Other Publications</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </nav>
-
-  <main>
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:info@jamaicahistory.org">info@jamaicahistory.org</a></p>
-    <p>Address: Kingston, Jamaica</p>
-    <div class="image-placeholder">[Map or Image Placeholder]</div>
-  </main>
-
-  <footer>
-    &copy; 2025 Jamaican Historical Society
-  </footer>
-</body>
-</html>
+</header>
+<main>
+<h2>Contact Us</h2><form><input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email"><textarea placeholder="Your Message"></textarea>
+<button type="submit">Send</button></form>
+</main>
+<footer><p>&copy; 2025 Jamaican Historical Society</p></footer>
+</body></html>
